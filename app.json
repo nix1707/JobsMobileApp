@@ -5,6 +5,20 @@
       "expo-router"
     ],
     "name": "JobsMobileApp",
-    "slug": "JobsMobileApp"
+    "slug": "JobsMobileApp",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7340c512-d045-40b9-a53a-7f6fa5187ee5"
+      }
+    },
+    "android": {
+      "package": "com.ns23451nq.JobsMobileApp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.ns23451nq.JobsMobileApp"
+    }
   }
 }
